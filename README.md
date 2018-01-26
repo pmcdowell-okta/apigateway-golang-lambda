@@ -1,6 +1,6 @@
 # GOLANG Lambda
 
-Quick example of how to user Serverless Framework to deploy an Amazon AWS API Gateway the users a GOLANG Lambda function on the back end
+Quick example of how to user Serverless Framework to deploy an Amazon AWS API Gateway that uses a GOLANG Lambda function on the back end
 
 * Checkout Code
 * Compile like this: `GOOS=linux go build -o bin/main`
