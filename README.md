@@ -4,11 +4,14 @@ Quick example of how to user Serverless Framework to deploy an Amazon AWS API Ga
 
 * Checkout Code
 * Compile like this: `GOOS=linux go build -o bin/main`
+* `cd bin`
+* `zip lambda.zip main`
+* `cd ..
 * Deploy  like this: `sls deploy`
 * Test like this: 
 
 `curl -X POST -d "car" \
-                     https://tmgc8to3dh.execute-api.us-east-1.amazonaws.com/dev/echo \
+                     https://`YourApiGaeway`.execute-api.us-east-1.amazonaws.com/dev/echo \
                      -H 'accept: application/json' \
                      -H 'cache-control: no-cache' \
                      -H 'content-type: application/x-www-form-urlencoded'`
